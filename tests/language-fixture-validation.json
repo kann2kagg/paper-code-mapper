@@ -1,0 +1,32 @@
+{
+  "valid": true,
+  "errors": [],
+  "warnings": [
+    "No commit recorded; do not describe source links as commit-pinned.",
+    "Schema/range checks do not verify explanation semantics, paper alignment, or experimental results."
+  ],
+  "source_ranges_checked": 6,
+  "verbatim_statements": 6,
+  "statements": 6,
+  "blocks": 2,
+  "lessons": 1,
+  "argument_nodes": 2,
+  "screenshot_regions": 4,
+  "translated_regions": 4,
+  "screenshot_references": 8,
+  "missing_screenshot_locations": [],
+  "missing_translations": [],
+  "source_pdf_hash_checked": true,
+  "translation_semantics_checked": false,
+  "source_pixels_reverified": false,
+  "reading_languages": [
+    "zh-CN",
+    "en"
+  ],
+  "translation_languages": [
+    "zh-CN",
+    "en"
+  ],
+  "localized_prose_fields": 79,
+  "translation_language_semantics_checked": false
+}

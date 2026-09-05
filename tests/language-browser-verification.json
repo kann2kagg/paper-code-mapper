@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "viewport": "desktop",
+      "checks": [
+        "Chinese annotations rendered, not just Chinese buttons",
+        "English annotations and example text; block/tab/step preserved",
+        "Argument text changes language; selected node preserved",
+        "Bidirectional code/argument links still work",
+        "Reading language and region text are independent; open image/zoom/full-page retained",
+        "English source transcription is labeled; numerical table unchanged",
+        "Text visibility and keyboard dialog dismissal retained",
+        "Region index stays synchronized across languages",
+        "Code strings, source image bytes and region metadata unchanged",
+        "No horizontal document overflow, script errors or network requests"
+      ],
+      "page_errors": [],
+      "network_requests": [],
+      "storage": "Unavailable/blocked storage handled during set_content testing; file-origin persistence not certified."
+    },
+    {
+      "viewport": "mobile",
+      "checks": [
+        "Chinese annotations rendered, not just Chinese buttons",
+        "English annotations and example text; block/tab/step preserved",
+        "Argument text changes language; selected node preserved",
+        "Bidirectional code/argument links still work",
+        "Reading language and region text are independent; open image/zoom/full-page retained",
+        "English source transcription is labeled; numerical table unchanged",
+        "Text visibility and keyboard dialog dismissal retained",
+        "Region index stays synchronized across languages",
+        "Code strings, source image bytes and region metadata unchanged",
+        "No horizontal document overflow, script errors or network requests"
+      ],
+      "page_errors": [],
+      "network_requests": [],
+      "storage": "Unavailable/blocked storage handled during set_content testing; file-origin persistence not certified."
+    }
+  ],
+  "scope": "Independent teaching fixture only; no repository/model execution or translation-semantic certification."
+}

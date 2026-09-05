@@ -1,0 +1,146 @@
+{
+  "scope": "Skill tools and reader UI checks only; not paper experiments or semantic certification.",
+  "unit_tests": {
+    "run": 66,
+    "passed": 66,
+    "log": "unit-test-results.txt"
+  },
+  "example_structure": {
+    "valid": true,
+    "errors": [],
+    "warnings": [
+      "Schema/range checks do not verify explanation semantics, paper alignment, or experimental results."
+    ],
+    "source_ranges_checked": 0,
+    "verbatim_statements": 0,
+    "statements": 161,
+    "blocks": 34,
+    "lessons": 17,
+    "argument_nodes": 17,
+    "screenshot_regions": 38,
+    "translated_regions": 38,
+    "screenshot_references": 52,
+    "missing_screenshot_locations": [],
+    "missing_translations": [],
+    "source_pdf_hash_checked": true,
+    "translation_semantics_checked": false,
+    "source_pixels_reverified": false
+  },
+  "fixture_structure": {
+    "valid": true,
+    "errors": [],
+    "warnings": [
+      "No commit recorded; do not describe source links as commit-pinned.",
+      "Schema/range checks do not verify explanation semantics, paper alignment, or experimental results."
+    ],
+    "source_ranges_checked": 12,
+    "verbatim_statements": 12,
+    "statements": 12,
+    "blocks": 5,
+    "lessons": 3,
+    "argument_nodes": 2,
+    "screenshot_regions": 4,
+    "translated_regions": 4,
+    "screenshot_references": 8,
+    "missing_screenshot_locations": [],
+    "missing_translations": [],
+    "source_pdf_hash_checked": true,
+    "translation_semantics_checked": false,
+    "source_pixels_reverified": false
+  },
+  "example_browser": {
+    "scope": "In-memory offline HTML interaction checks; no file-URL launch, repository/model run or translation-semantics test.",
+    "runs": [
+      {
+        "viewport": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "regions_opened": 38,
+        "offline_external_requests": 0,
+        "javascript_errors": [],
+        "code_annotations_visible": true,
+        "bidirectional_links": true,
+        "translation_switching": true,
+        "full_page_scope_notice": true,
+        "translation_index": true,
+        "dialog_escape": true,
+        "root_horizontal_overflow": false
+      },
+      {
+        "viewport": "mobile",
+        "width": 390,
+        "height": 844,
+        "regions_opened": 38,
+        "offline_external_requests": 0,
+        "javascript_errors": [],
+        "code_annotations_visible": true,
+        "bidirectional_links": true,
+        "translation_switching": true,
+        "full_page_scope_notice": true,
+        "translation_index": true,
+        "dialog_escape": true,
+        "root_horizontal_overflow": false
+      }
+    ]
+  },
+  "fixture_browser": {
+    "scope": "In-memory offline HTML interaction checks; no file-URL launch, repository/model run or translation-semantics test.",
+    "runs": [
+      {
+        "viewport": "desktop",
+        "width": 1440,
+        "height": 1000,
+        "regions_opened": 4,
+        "offline_external_requests": 0,
+        "javascript_errors": [],
+        "code_annotations_visible": true,
+        "bidirectional_links": true,
+        "translation_switching": true,
+        "full_page_scope_notice": true,
+        "translation_index": true,
+        "dialog_escape": true,
+        "root_horizontal_overflow": false
+      },
+      {
+        "viewport": "mobile",
+        "width": 390,
+        "height": 844,
+        "regions_opened": 4,
+        "offline_external_requests": 0,
+        "javascript_errors": [],
+        "code_annotations_visible": true,
+        "bidirectional_links": true,
+        "translation_switching": true,
+        "full_page_scope_notice": true,
+        "translation_index": true,
+        "dialog_escape": true,
+        "root_horizontal_overflow": false
+      }
+    ]
+  },
+  "manual_visual_review": [
+    "Desktop enlarged source table with translation",
+    "Mobile stacked source/translation viewer",
+    "Author-argument page with embedded source"
+  ],
+  "limits": [
+    "Translation content is carried forward from supplied artifacts, not independently retranslated here.",
+    "Repository annotations were not re-audited and no model experiment ran.",
+    "Browser checks injected offline HTML into memory; file-URL launch was not tested due to environment policy."
+  ],
+  "language_selection_update": {
+    "unit_tests": 93,
+    "unit_result": "passed",
+    "language_browser_report": "tests/language-browser-verification.json",
+    "fixture_report": "tests/language-fixture-validation.json",
+    "scope": "Language selection, shared source invariants, and authored fixture. No model execution or certification of all translation semantics.",
+    "reading_languages_tested": [
+      "zh-CN",
+      "en"
+    ],
+    "source_text_languages_tested": [
+      "zh-CN",
+      "en"
+    ]
+  }
+}
