@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Paper Code Reader</title>
+<style>
+:root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif;color:#17283e;background:#f5f7fa}*{box-sizing:border-box}body{margin:0;height:100vh;height:100dvh;display:flex;flex-direction:column}.languagebar{flex:0 0 auto;display:flex;gap:16px;align-items:center;flex-wrap:wrap;padding:11px 23px;background:#fff;border-bottom:1px solid #dfe6ee}.language-brand{font:700 13px/1.4 system-ui;color:#315679;letter-spacing:.025em}.language-control{display:flex;align-items:center;gap:8px;font-size:13px;line-height:1.5}.language-control select{font:inherit;color:inherit;background:#f8fafd;border:1px solid #bbccdf;border-radius:6px;padding:7px 28px 7px 10px;max-width:240px}.language-control select:focus-visible{outline:3px solid #83a8d8;outline-offset:2px}.language-note{color:#677c90;font-size:11px;line-height:1.6;margin-left:auto;max-width:340px}#readerFrame{width:100%;border:0;flex:1 1 auto;min-height:0;background:#f5f7fa}#languageStatus{padding:12px 23px;color:#7b4215;background:#fff5e8;font-size:13px;line-height:1.7}#languageStatus:empty{display:none}noscript{padding:20px}@media(max-width:760px){.languagebar{padding:10px 12px;gap:8px 12px}.language-brand{flex:0 0 100%;font-size:11px}.language-control{font-size:12px;flex:1 1 40%;display:block;min-width:0}.language-control span{display:block;margin-bottom:3px}.language-control select{width:100%;max-width:none;font-size:12px;padding:7px}.language-note{max-width:none;margin-left:0;font-size:10px}.language-note[hidden]{display:none}}
+</style></head><body>
+<div class="languagebar" role="region" aria-label="Language settings">
+<strong class="language-brand" id="languageBrand"></strong>
+<label class="language-control" for="readingLanguage"><span id="readingLabel"></span><select id="readingLanguage"></select></label>
+<label class="language-control" for="translationLanguage" id="translationControl"><span id="translationLabel"></span><select id="translationLanguage"></select></label>
+<span class="language-note" id="languageNote"></span>
+</div>
+<div id="languageStatus" role="status" aria-live="polite"></div>
+<iframe id="readerFrame" title="Code and paper reader" sandbox="allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+<noscript>This offline reader requires JavaScript. No external translation service is called.</noscript>
+<script type="application/json" id="languageBundle">__LANGUAGE_BUNDLE__</script>
+<script>__LANGUAGE_JS__</script>
+</body></html>
