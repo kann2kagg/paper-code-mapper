@@ -1,0 +1,11 @@
+interface:
+  display_name: "Paper Code Evidence Reader"
+  short_description: "Code-first paper/repository walkthrough with evidence"
+  icon: "../assets/icon.svg"
+  brand_color: "#4F46E5"
+
+compatibility:
+  chatgpt: true
+  codex: true
+  api: true
+  atlas: true
