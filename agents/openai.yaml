@@ -1,11 +1,15 @@
 interface:
-  display_name: "Paper Code Evidence Reader"
-  short_description: "Code-first paper/repository walkthrough with evidence"
-  icon: "../assets/icon.svg"
-  brand_color: "#4F46E5"
-
-compatibility:
-  chatgpt: true
-  codex: true
-  api: true
-  atlas: true
+  display_name: Paper Code Evidence Reader
+  short_description: 代码精读、作者论证、原文截图与可选语言
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+  brand_color: '#235FBA'
+  default_prompt: 解析这个仓库和附件论文：逐条解释代码，完整呈现作者论证主线，并提供真实 PDF 截图与逐区域译文。默认提供简体中文和 English
+    阅读版本，可独立选择截图文本语言。保留原图、源码和数值，输出可双向定位的离线 HTML 阅读器。
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
