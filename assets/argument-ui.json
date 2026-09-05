@@ -1,0 +1,78 @@
+{
+  "en": {
+    "code": "Read the code",
+    "logic": "Author argument",
+    "hint": "Execution order and research reasoning are different tracks.",
+    "title": "Understand the author argument",
+    "intro": "Keep the research problem, proposed explanation, method, evidence and limits together.",
+    "back": "Return to current code",
+    "nav": "Reasoning nodes. Branches below are argument relations, not function calls.",
+    "question": "Question at this step",
+    "because": "Why this step follows",
+    "consequence": "What it motivates next",
+    "evidence": "Paper evidence",
+    "boundary": "What this does not establish",
+    "links": "Code connected to this claim",
+    "edges": "Connections in the author argument",
+    "source": "Open paper location",
+    "prev": "Previous reading node",
+    "next": "Next reading node",
+    "context": "Research context of this code",
+    "overview": "Full author argument",
+    "noArgument": "No supported author argument is available. Do not invent one from the code.",
+    "noLocal": "No direct research claim is linked to this block. Engineering context and code explanation remain separate.",
+    "bases": {
+      "author-stated": "Author statement",
+      "source-analysis": "Source-based interpretation",
+      "teaching": "Teaching only"
+    },
+    "roles": {
+      "implements": "Implementation",
+      "configures": "Configuration",
+      "measures": "Measurement",
+      "infrastructure": "Engineering support"
+    },
+    "block": "Code block",
+    "earlier": "Earlier node",
+    "later": "Related node",
+    "position": "Teaching sequence, not causal proof"
+  },
+  "zh-CN": {
+    "code": "代码逐条解析",
+    "logic": "作者论证主线",
+    "hint": "代码回答“怎么做”，论证主线回答“为什么这样做”。",
+    "title": "看清作者是怎样推到这个方法的",
+    "intro": "不是把章节摘要串起来，而是保留问题、原因解释、设计选择、实验依据和适用边界之间的关系。",
+    "back": "回到刚才的代码",
+    "nav": "沿作者的论证阅读；存在分支与依赖，不是程序调用顺序。",
+    "question": "这个环节在回答什么",
+    "because": "为什么会走到这一步",
+    "consequence": "这一点又引出什么",
+    "evidence": "论文中的依据",
+    "boundary": "不能由此推出什么",
+    "links": "哪些代码承担了这一环节",
+    "edges": "放回整条论证中看",
+    "source": "定位到论文",
+    "prev": "上一个阅读环节",
+    "next": "下一个阅读环节",
+    "context": "这段代码在研究逻辑中的位置",
+    "overview": "看完整作者逻辑",
+    "noArgument": "目前没有可核对的完整作者论证。不能只凭代码反推出作者想法。",
+    "noLocal": "这块代码没有被直接绑定到研究命题。工程支撑仍按执行逻辑解释，不强行配一条论文结论。",
+    "bases": {
+      "author-stated": "作者明确论述",
+      "source-analysis": "据原文整理的解释",
+      "teaching": "独立教学示意"
+    },
+    "roles": {
+      "implements": "实现方法",
+      "configures": "选择实验配置",
+      "measures": "计算评估指标",
+      "infrastructure": "工程支撑"
+    },
+    "block": "代码块",
+    "earlier": "前置论点",
+    "later": "关联论点",
+    "position": "阅读顺序不等于严格因果证明"
+  }
+}
