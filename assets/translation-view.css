@@ -1,0 +1,45 @@
+/* Faithful screenshot translations, separate from analytical commentary. */
+.translation-box{margin-top:16px;border:1px solid #ccdfd7;border-radius:7px;background:#fff;overflow:hidden;min-width:0}
+.translation-box>summary{display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:12px 15px;background:#f0f7f3;color:#245c48;cursor:pointer;list-style:none;font-size:14px;font-weight:600;line-height:1.6}
+.translation-box>summary::before{content:'+';font:600 17px/1 monospace;width:12px}
+.translation-box[open]>summary::before{content:'\2212'}
+.translation-box>summary small{font-weight:400;font-size:10px;margin-left:auto;color:#66796d}
+.translation-content{padding:15px 17px;min-width:0}
+.translation-content h4{font-size:15px;line-height:1.7;margin:0 0 13px;color:#224f3e}
+.translation-content h5{font-size:13px;line-height:1.7;margin:17px 0 8px;color:#355b49}
+.translation-content p{font-size:14px;line-height:1.95;margin:0 0 13px;color:#24384c;white-space:pre-wrap;overflow-wrap:anywhere}
+.translation-content p:last-child{margin-bottom:0}
+.translation-equation{font:14px/2 'Cambria Math','STIX Two Math',Georgia,serif;margin:12px 0 17px;padding:12px 14px;border:1px solid #e0e8e3;border-radius:5px;background:#f7faf8;overflow-x:auto;white-space:pre-wrap;overflow-wrap:anywhere}
+.translation-equation sub,.translation-equation sup{font-size:75%;line-height:0}
+.translation-code{font:12px/1.9 ui-monospace,Consolas,monospace;background:#f6f9f7;border:1px solid #dfe8e2;border-radius:5px;padding:12px;white-space:pre;overflow:auto;max-width:100%}
+.translation-table-wrap{overflow:auto;max-width:100%;border:1px solid #dce7e1;border-radius:5px;margin:10px 0 16px}
+.translation-table{border-collapse:collapse;width:100%;font-size:12px;line-height:1.8;text-align:left}
+.translation-table th{background:#f0f6f2;color:#355b49;font-weight:600}
+.translation-table td,.translation-table th{padding:9px 11px;border-bottom:1px solid #e4ebe6;border-right:1px solid #e4ebe6;vertical-align:top}
+.translation-table tr:last-child td{border-bottom:0}.translation-table td:last-child,.translation-table th:last-child{border-right:0}
+.translation-table.numerical{min-width:760px}.translation-table.numerical td:nth-child(n+3){white-space:nowrap;font-variant-numeric:tabular-nums}
+.translation-table.prose{min-width:740px;table-layout:fixed}.translation-table.prose th:first-child{width:22%}.translation-table.prose td{white-space:pre-wrap;overflow-wrap:anywhere}
+.translation-table.pairs td:first-child{width:47%;color:#55667b;font-size:11px;overflow-wrap:anywhere}.translation-table.pairs td:last-child{overflow-wrap:anywhere}
+.translation-notes{margin-top:14px;border-top:1px dashed #dce7df;padding-top:11px;color:#756238;font-size:11px;line-height:1.8}
+.translation-notes strong{display:block;font-size:11px;margin-bottom:5px}.translation-notes div+div{margin-top:5px}
+.translation-links{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}.translation-links .btn{font-size:11px;white-space:normal;text-align:left}
+.translation-scope{font-size:11px!important;color:#6a7e70!important;line-height:1.75!important;margin-bottom:13px!important}
+.aside .translation-content{padding:11px}.aside .translation-content p{font-size:13px}.aside .translation-box>summary{padding:10px;font-size:12px}.aside .translation-content h4{font-size:13px}
+.original-bilingual-stage{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,1fr);flex:1;min-height:0;overflow:hidden}
+.original-bilingual-stage .original-viewer-stage{min-width:0;min-height:0;padding:17px}
+.original-translation-pane{overflow:auto;padding:16px 20px 24px;background:white;min-width:0;min-height:0;border-left:1px solid var(--line);overscroll-behavior:contain}
+.original-translation-pane .translation-content{padding:0}.original-translation-pane .translation-content h4{font-size:18px}
+.original-translation-pane .translation-content p{font-size:14px}
+.original-translation-pane .translation-scope{padding:10px 12px;background:#f0f7f3;border:1px solid #d6e5db;border-radius:5px;flex-shrink:0}
+.original-bilingual-stage.translation-off{grid-template-columns:1fr}.translation-off .original-translation-pane{display:none}
+.translation-page-list{display:flex;flex-direction:column;gap:8px}.translation-page-list .btn{text-align:left;white-space:normal;padding:10px 12px;line-height:1.7}
+.translation-pane-caption{font-size:11px;line-height:1.7;color:#587563;margin:0 0 11px}
+#translationIndex{max-width:900px;width:calc(100% - 28px);padding:23px}
+.translation-index-intro{font-size:13px;line-height:1.85;color:#566b7d;margin:6px 0 18px}
+.translation-index-group{border-top:1px solid var(--line);padding-top:13px;margin-top:15px}
+.translation-index-group h4{font-size:13px;margin:0 0 8px;color:#46637e}
+.translation-index-links{display:grid;grid-template-columns:1fr 1fr;gap:7px}.translation-index-links .btn{text-align:left;white-space:normal;padding:10px 12px;font-size:12px;line-height:1.8;background:#fafcfb}
+#translationIndexButton{color:#235b48;border-color:#c4dbce}.bilingual-shot-title{display:block;font-size:11px;color:#6d7c8e;margin-top:3px}
+@media(max-width:850px){.original-bilingual-stage{grid-template-columns:1fr;grid-template-rows:minmax(120px,.9fr) minmax(160px,1fr)}.original-translation-pane{border-left:0;border-top:1px solid var(--line);padding:13px 15px}.original-bilingual-stage.translation-off{grid-template-rows:1fr}.original-bilingual-stage .original-viewer-stage{padding:10px}.original-viewer-controls{padding:8px 10px;gap:5px}.original-viewer-controls .btn{font-size:11px;padding:5px 7px}#paperOriginalViewer{height:96dvh;max-height:96dvh}.original-viewer-head{padding:10px 12px}.original-viewer-head h3{font-size:13px}.original-viewer-head p{font-size:10px}.original-viewer-note{font-size:10px;padding:6px 10px}.original-translation-pane .translation-content h4{font-size:16px}}
+@media(max-width:640px){.translation-content{padding:12px}.translation-content p{font-size:13px;line-height:1.95}.translation-box>summary{padding:10px 12px;font-size:13px}.translation-box>summary small{font-size:9px}.translation-content h4{font-size:14px}.translation-index-links{grid-template-columns:1fr}#translationIndex{padding:17px}.modebar .modehint{display:none}.original-viewer-head p{max-height:32px;overflow:auto}.translation-table td,.translation-table th{padding:8px}.translation-table.pairs{font-size:11px}}
+@media print{.translation-box{break-inside:auto}.translation-content{display:block!important}.translation-index-links,.translation-links{display:none}.translation-table-wrap{overflow:visible}}
